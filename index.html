@@ -5,14 +5,20 @@
 </head>
 <body>
 	<h1>This page is a sample of my photography portfolio!</h1>
-	<figure>
-	<img src="images/nice.jpg" width=782.5px height=518.75px alt="girl by the water">
-	<figcaption>This photo was taken in Nice, France on a cold spring day.</figcaption>
-</figure>
-<figure>
-	<img src="images/gown.jpg" width=782.5px height=518.75px alt="girl wearing a ballgown">
-	<figcaption>This photo was taken in Lincoln Center of a presumably fancy person.</figcaption>
-</figure>
+	<div>
+		<figure>
+		<button id="bttn" onclick="document.getElementById('firstpic') .style .filter='blur(10px)'">Blur this picture</button>
+		<img id="firstpic" src="images/nice.jpg" width=782.5px height=518.75px alt="girl by the water">
+		<figcaption>This photo was taken in Nice, France on a cold spring day.</figcaption>
+		</figure>
+	</div>
+	<div>
+		<figure>
+		<button id="bttn" onclick="document.getElementById('secondpic') .style .filter='blur(10px)'">Or this one!</button>
+		<img id="secondpic" src="images/gown.jpg" width=782.5px height=518.75px alt="girl wearing a ballgown">
+		<figcaption>This photo was taken in Lincoln Center of a presumably fancy person.</figcaption>
+		</figure>
+	</div>
 <figure>
 	<img src="images/buildings.JPG" width=774.5px height=512px alt="buildings in new york city">
 	<figcaption>This photo was taken by the Hudson river, in New York City.</figcaption>
